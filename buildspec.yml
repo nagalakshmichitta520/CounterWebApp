@@ -9,4 +9,4 @@ phases:
       - mvn test
 artifacts:
   files:
-    - '**/*'
+    - 'target/CounterWebApp.war'
