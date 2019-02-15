@@ -6,7 +6,7 @@ node{
 	
 	
 	stage('Docker Build Image') {
-		def customImage = docker.build("${env.JOB_NAME.}:v1.${env.BUILD_ID}")
+		def customImage = docker.build("${env.JOB_NAME}:v1.${env.BUILD_ID}")
        }
 	 
 }
